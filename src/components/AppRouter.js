@@ -9,7 +9,7 @@ import Contacts from '../pages/Contacts'
 
 const AppRouter = () => {
   return (
-    <BrowserRouter >
+    <BrowserRouter basename={window.location.pathname || ''}>
       <Routes>
         <Route exact path='/' element={<Home />} />
         <Route path='/projects' element={<Projects />} />
