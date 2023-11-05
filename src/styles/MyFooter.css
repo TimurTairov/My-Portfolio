@@ -1,0 +1,26 @@
+.my-footer {
+  margin-top: auto;
+  background-color: rgb(233, 250, 244);
+}
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+.container-item {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

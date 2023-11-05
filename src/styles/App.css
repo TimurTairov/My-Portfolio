@@ -1,0 +1,12 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* .card {
+  background-color: beige;
+  border: 1px solid grey;
+  margin: 1em;
+  border-radius: 1em;
+} */

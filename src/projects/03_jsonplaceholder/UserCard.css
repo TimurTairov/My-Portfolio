@@ -1,0 +1,26 @@
+.card-list {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(1);
+}
+
+.card-container {
+  grid-column: 3/11;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5);
+}
+
+.user-card {
+  background-color: beige;
+  border: 1px solid grey;
+  margin: 1em;
+  padding: 1em;
+  border-radius: 1em;
+  text-align: left;
+  width: 90%;
+}
+
+.user-card__tittle {
+  text-align: center;
+}
