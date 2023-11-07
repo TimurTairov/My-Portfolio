@@ -7,28 +7,9 @@ const CostForm = (props) => {
   const [inputSum, setInputSum] = useState('')
   const [inputDate, setInputDate] = useState('')
 
-  // const [userInput, setUserInput] = useState({
-  //   name: '',
-  //   sum: '',
-  //   date: ''
-  // })
 
   const nameChangeHandler = (event) => {
     setInputName(event.target.value)
-
-    //! Не всегда такой подход работает корректно!
-    // setUserInput({
-    //   ...userInput,
-    //   name: event.target.value,
-    // })
-
-    //! Лучше использовать такой подход!
-    // setUserInput((previousState) => {
-    //   return {
-    //     ...previousState,
-    //     name: event.target.value
-    //   }
-    // })
   }
 
   const sumChangeHandler = (event) => {
