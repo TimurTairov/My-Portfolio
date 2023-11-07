@@ -12,3 +12,13 @@ li {
   font-weight: 700;
   color: darkcyan;
 }
+
+.myContacts {
+  width: 25rem;
+}
+
+@media (max-width: 755px) {
+  .myContacts {
+    width: 18rem;
+  }
+}

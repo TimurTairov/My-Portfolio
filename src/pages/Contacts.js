@@ -5,7 +5,7 @@ import '../styles/Contacts.css'
 const Contacts = () => {
   return (
     <Container className="contacts-container">
-      <Card style={{ width: '25rem' }} className='contacts-container mt-4'>
+      <Card className='contacts-container mt-4 myContacts'>
         <div>
           <h1 className="tittle">Contacts</h1>
         </div>
