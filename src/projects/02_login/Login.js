@@ -36,28 +36,28 @@ const Login = () => {
 
   return (
     <Container className='auth'>
-      <Card onSubmit={handleformsubmit} style={{ width: '25rem' }} className='p-3'>
+      <Card onSubmit={handleformsubmit} className='p-3 myCard'>
         <Form className='d-flex flex-column'>
           <Form.Control
-            className='mt-3'
+            className='mt-3 myInput'
             placeholder='Введите email...'
             value={email}
             onChange={e => setEmail(e.target.value)}
-            style={{ width: '21rem' }}
+
           />
           <Form.Control
-            className='mt-3'
+            className='mt-3 myInput'
             placeholder='Введите пароль...'
             value={password}
             onChange={e => setPassword(e.target.value)}
             type='password'
-            style={{ width: '21rem' }}
+
           />
           <Button type='submit' className='align-self-end' variant={'outline-success'}>Login</Button>
         </Form>
       </Card>
 
-      <Card style={{ width: '25rem' }} className='mt-4 p-3'>
+      <Card className='mt-4 p-3 myCard'>
         <CardTitle>Users data in database</CardTitle>
         <CardText>
           {userData.map(user => {

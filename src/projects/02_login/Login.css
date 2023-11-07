@@ -30,3 +30,20 @@ label {
   flex-direction: column;
   /* border: 0.2px solid grey; */
 }
+
+.myCard {
+  width: 25rem;
+}
+
+.myInput {
+  width: 21rem;
+}
+
+@media (max-width: 755px) {
+  .myCard {
+    width: 18rem;
+  }
+  .myInput {
+    width: 15rem;
+  }
+}
