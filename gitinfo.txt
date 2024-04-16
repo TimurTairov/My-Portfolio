@@ -1,4 +1,4 @@
 git add .
-git commit -m “commit 2.5 navbar @media”
+git commit -m “commit 2.6 navbar @media”
 git log
 git push origin master
