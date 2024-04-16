@@ -33,7 +33,7 @@ const UserList = () => {
       <a href={API_URL} target="_blank" rel="noreferrer">{API_URL}</a>
 
       <div style={{ textAlign: 'center' }}>
-        <Button onClick={click} variant={'outline-success'}>Show data</Button>
+        <Button onClick={click} variant={'outline-success'}>{showData ? 'Hide data' : 'Show data'}</Button>
       </div>
       <div className='card-list'>
         <div className='card-container'>

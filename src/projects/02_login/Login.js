@@ -21,12 +21,12 @@ const Login = () => {
         {login ?
           <>
             <h5>Do you have an account?</h5>
-            <Button onClick={handleLogin}> Login an account </Button>
+            <Button onClick={handleLogin} variant={'outline-success'}> Login an account </Button>
           </>
           :
           <>
             <h5>Don't have an account?</h5>
-            <Button onClick={handleLogin}> Create an account </Button>
+            <Button onClick={handleLogin} variant={'outline-success'}> Create an account </Button>
           </>
         }
       </div>
