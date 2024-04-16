@@ -1,4 +1,4 @@
 git add .
-git commit -m “commit 2.3 login button”
+git commit -m “commit 2.4 navbar @media”
 git log
 git push origin master

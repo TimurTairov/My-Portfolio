@@ -16,11 +16,11 @@ const NavBar = () => {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto top-menu">
               <NavLink to="." end>
-                <Image src={logo} alt="logo" width={70} />
+                <Image src={logo} alt="logo" className="logo" />
               </NavLink>
             </Nav>
             <Nav className="top-menu">
-              <NavLink to="." end>
+              <NavLink className="nav-home" to="." end>
                 <IoHome className="mb-2" />
               </NavLink>
               <NavLink className="navlink" to="projects">

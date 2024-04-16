@@ -8,19 +8,19 @@ const Contacts = () => {
         <h1 className="title">Contacts</h1>
       </div>
 
-      <Card className="contacts-page">
+      <Card className="contacts-item">
         <h5>Location</h5>
         <p>Moscow, Russia (metro Novokosino)</p>
       </Card>
 
-      <Card className="contacts-page">
+      <Card className="contacts-item">
         <h5>WhatsApp</h5>
         <p>
           <a href="whatsapp://send?phone=79672067710">+7 (967) 206-77-10</a>
         </p>
       </Card>
 
-      <Card className="contacts-page">
+      <Card className="contacts-item">
         <h5>Telegram</h5>
         <p>
           <a href="https://t.me/tirthadeva" target="_blank" rel="noreferrer">
@@ -29,7 +29,7 @@ const Contacts = () => {
         </p>
       </Card>
 
-      <Card className="contacts-page">
+      <Card className="contacts-item">
         <h5>VK</h5>
         <p>
           <a href="https://vk.com/tirthadeva" target="_blank" rel="noreferrer">
@@ -38,7 +38,7 @@ const Contacts = () => {
         </p>
       </Card>
 
-      <Card className="contacts-page">
+      <Card className="contacts-item">
         <h5>GitHub</h5>
         <p>
           <a
@@ -51,7 +51,7 @@ const Contacts = () => {
         </p>
       </Card>
 
-      <Card className="contacts-page">
+      <Card className="contacts-item">
         <h5>Email</h5>
         <p>
           <a href="mailto:tairovtk@gmail.com" target="_blank" rel="noreferrer">
