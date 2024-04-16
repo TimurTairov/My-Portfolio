@@ -11,7 +11,7 @@ const UserList = () => {
   const [showData, setShowdata] = useState(false)
 
   const click = () => {
-    setShowdata(true)
+    setShowdata(!showData)
   }
 
   useEffect(() => {
@@ -29,8 +29,8 @@ const UserList = () => {
   // console.log(users)
   return (
     <>
-      <h4>User cards <hr /> </h4>
-      from {API_URL}
+      <h4>User cards from {API_URL} </h4>
+
       <div style={{ textAlign: 'center' }}>
         <Button onClick={click} variant={'outline-success'}>Show data</Button>
       </div>

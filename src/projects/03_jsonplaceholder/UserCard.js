@@ -6,7 +6,7 @@ const UserCard = ({ name, username, address, email, phone, website, company }) =
   console.log(address)
   return (
     <div className='user-card'>
-      <h3 className='user-card__tittle'>User card</h3>
+      <h3 className='user-card__title'>User card</h3>
       <b>Username:</b> {username} <br />
       <b>Name:</b> {name} <br />
       <b>Email:</b> {email} <br />

@@ -10,8 +10,8 @@ const projects = [
   {
     id: '0002',
     tittle: 'Login Form',
-    description: 'Simple authorization form',
-    skills: 'React, useState hook',
+    description: 'Simple authorization form with Firebase',
+    skills: 'React, useState, firebase',
     gitHubLink: 'https://github.com',
   },
   {
@@ -33,15 +33,15 @@ const projects = [
   {
     id: '0005',
     tittle: 'Todo App',
-    description: 'None',
-    skills: 'HTML, CSS, JS',
+    description: 'Todo list application',
+    skills: 'React, useState, css, react-icons, custom UI, props',
   },
 
   {
     id: '0006',
     tittle: 'Cost App',
-    description: 'None',
-    skills: 'React, PHP, MySql',
+    description: 'Cost accounting application',
+    skills: 'React, useState, css, react-icons, custom UI, props',
   },
 ]
 

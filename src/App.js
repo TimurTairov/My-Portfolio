@@ -1,20 +1,14 @@
 import AppRouter from './components/AppRouter';
-import MyFooter from './components/MyFooter';
-import NavBar from './components/NavBar';
-import './styles/App.css'
+import './styles.scss'
 
 
 function App() {
 
   return (
-
     <div className='app'>
-      <NavBar />
-      <AppRouter className='app-router' />
-      <MyFooter />
+      <AppRouter />
     </div>
-
-  );
+  )
 }
 
 export default App;
