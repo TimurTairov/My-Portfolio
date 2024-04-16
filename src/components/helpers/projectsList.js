@@ -17,7 +17,7 @@ const projects = [
   {
     id: '0003',
     tittle: 'Jsonplaceholder',
-    description: 'Gets data from jsonplaceholder',
+    description: 'Getting data from jsonplaceholder',
     skills: 'React, useState, useEffect, grid css',
     gitHubLink: 'https://github.com',
   },
@@ -25,7 +25,7 @@ const projects = [
   {
     id: '0004',
     tittle: 'Async await Jsonplaceholder',
-    description: 'Asynchronous gets data from jsonplaceholder',
+    description: 'Asynchronous data retrieval from jsonplaceholder',
     skills: 'React, useState, async await useEffect',
     gitHubLink: 'https://github.com',
   },
@@ -34,14 +34,14 @@ const projects = [
     id: '0005',
     tittle: 'Todo App',
     description: 'Todo list application',
-    skills: 'React, useState, css, react-icons, custom UI, props',
+    skills: 'React, useState, css, react-icons, custom UI',
   },
 
   {
     id: '0006',
     tittle: 'Cost App',
     description: 'Cost accounting application',
-    skills: 'React, useState, css, react-icons, custom UI, props',
+    skills: 'React, useState, css, react-icons, custom UI',
   },
 ]
 

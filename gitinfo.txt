@@ -1,0 +1,4 @@
+git add .
+git commit -m “commit 2.0 projectlist, contacts, links”
+git log
+git push origin master

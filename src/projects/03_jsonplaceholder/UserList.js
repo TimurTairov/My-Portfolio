@@ -29,7 +29,8 @@ const UserList = () => {
   // console.log(users)
   return (
     <>
-      <h4>User cards from {API_URL} </h4>
+      <h4>User cards from</h4>
+      <a href={API_URL} target="_blank" rel="noreferrer">{API_URL}</a>
 
       <div style={{ textAlign: 'center' }}>
         <Button onClick={click} variant={'outline-success'}>Show data</Button>

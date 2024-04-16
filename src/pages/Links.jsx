@@ -15,7 +15,7 @@ const Links = () => {
         </a>
         <p>
           <b>Skills:</b> HTML, js, react, react-bootstrap, react-router-dom,
-          react-icons, lazy load components, upload by Versel.com
+          react-icons, lazy load components, uploaded by Versel.com
         </p>
       </Card>
 
@@ -26,7 +26,7 @@ const Links = () => {
         </a>
         <p>
           <b>Skills:</b> HTML, js, react, tailwind css, react-router-dom,
-          react-icons, lazy load components, upload by Versel.com
+          react-icons, lazy load components, uploaded by Versel.com
         </p>
       </Card>
     </Container>

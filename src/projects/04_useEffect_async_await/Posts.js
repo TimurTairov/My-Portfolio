@@ -32,7 +32,8 @@ function Posts() {
 
   return (
     <>
-      <h4>Posts from </h4> <a href={API_URL} target="_blank" rel="noreferrer">{API_URL}</a>
+      <h4>Posts from </h4>
+      <a href={API_URL} target="_blank" rel="noreferrer">{API_URL}</a>
 
       {
         isloading ? (<div className="loading">Loading...</div>)

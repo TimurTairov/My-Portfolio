@@ -10,7 +10,7 @@ const Contacts = () => {
 
       <Card className="contacts-page">
         <h5>Location</h5>
-        <p>Moscow, Russia</p>
+        <p>Moscow, Russia (metro Novokosino)</p>
       </Card>
 
       <Card className="contacts-page">
