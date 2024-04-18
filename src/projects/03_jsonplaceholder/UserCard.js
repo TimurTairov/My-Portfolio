@@ -3,7 +3,7 @@ import './UserCard.css'
 
 const UserCard = ({ name, username, address, email, phone, website, company }) => {
   // let userAdress = JSON.parse(address)
-  console.log(address)
+  //console.log(address)
   return (
     <div className='user-card'>
       <h3 className='user-card__title'>User card</h3>

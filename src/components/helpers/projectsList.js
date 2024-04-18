@@ -41,7 +41,7 @@ const projects = [
     id: '0006',
     tittle: 'Cost App',
     description: 'Cost accounting application',
-    skills: 'React, useState, css, react-icons, custom UI',
+    skills: 'React, useState, css, react-icons, custom UI, data filtering',
   },
 ]
 

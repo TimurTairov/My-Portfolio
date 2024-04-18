@@ -60,7 +60,7 @@ function TodoApp() {
           toggleTodo={toggleTodoHandler}
         />
         {completedTodosCount > 0 && (
-          <h2>{`Completed tasks: ${completedTodosCount}.`}</h2>
+          <p className='completedTodosTasks'>{`Completed tasks: ${completedTodosCount}.`}</p>
         )}
       </div>
 

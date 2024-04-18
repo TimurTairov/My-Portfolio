@@ -31,10 +31,10 @@ const Login = () => {
         }
       </div>
 
-      <Card style={{ width: 600 }} className="d-flex flex-column justify-content-center align-items-center my-4" >
+      <Card className="myCard d-flex flex-column justify-content-center align-items-center my-4" >
         {login ? <SignUp /> : <SignIn />}
       </Card>
-      <Card style={{ width: 600 }} className="d-flex flex-column justify-content-center align-items-center my-4"><Authdetails /></Card>
+      <Card className="myCard d-flex flex-column justify-content-center align-items-center my-4"><Authdetails /></Card>
     </Container>
   )
 }

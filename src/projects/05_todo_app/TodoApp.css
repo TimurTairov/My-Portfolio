@@ -3,10 +3,21 @@
   max-width: 650px;
   margin: 0 auto;
 }
+
 .TodoApp-container {
   border-radius: 20px;
   font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
     'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   color: white;
   background-color: #112d49;
+}
+
+.completedTodosTasks {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 992px) {
+  .completedTodosTasks {
+    font-size: 1.2rem;
+  }
 }

@@ -5,9 +5,9 @@ function Person(props) {
   return (
     <div className="person-card">
       <img src={img} alt='card' />
-      <h5>
+      <h6>
         {firstName} {lastName}
-      </h5>
+      </h6>
       <p>{email}</p>
     </div>
   )

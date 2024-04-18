@@ -10,7 +10,7 @@ const persons = [
     id: 2,
     firstName: 'Nana',
     lastName: 'McKmurrie',
-    email: 'nmckmurrie1@springer.com',
+    email: 'nmckmurrie@springer.com',
     img: 'http://dummyimage.com/200x100.png/dddddd/000000',
   },
   {
@@ -59,7 +59,7 @@ const persons = [
     id: 9,
     firstName: 'Westleigh',
     lastName: 'McCloughen',
-    email: 'wmccloughen8@census.gov',
+    email: 'mccloughen8@census.gov',
     img: 'http://dummyimage.com/200x100.png/cc0000/ffffff',
   },
   {
@@ -94,7 +94,7 @@ const persons = [
     id: 14,
     firstName: 'Guenna',
     lastName: 'Strippel',
-    email: 'gstrippeld@wunderground.com',
+    email: 'strippeld@wunder-ground.com',
     img: 'http://dummyimage.com/200x100.png/dddddd/000000',
   },
   {
@@ -108,7 +108,7 @@ const persons = [
     id: 16,
     firstName: 'Dukie',
     lastName: 'Glendinning',
-    email: 'dglendinningf@amazon.co.jp',
+    email: 'glendinning@amazon.com',
     img: 'http://dummyimage.com/200x100.png/5fa2dd/ffffff',
   },
   {
@@ -122,7 +122,7 @@ const persons = [
     id: 18,
     firstName: 'Austen',
     lastName: 'Boshier',
-    email: 'aboshierh@cargocollective.com',
+    email: 'aboshierh@cargo-collective.com',
     img: 'http://dummyimage.com/200x100.png/dddddd/000000',
   },
   {
@@ -150,14 +150,14 @@ const persons = [
     id: 22,
     firstName: 'Gertrud',
     lastName: 'Aveson',
-    email: 'gavesonl@businessweek.com',
+    email: 'gavesonl@busines-sweek.com',
     img: 'http://dummyimage.com/200x100.png/ff4444/ffffff',
   },
   {
     id: 23,
     firstName: 'Nancie',
     lastName: 'McVity',
-    email: 'nmcvitym@sciencedaily.com',
+    email: 'nmcvitym@science-daily.com',
     img: 'http://dummyimage.com/200x100.png/dddddd/000000',
   },
   {
@@ -276,7 +276,7 @@ const persons = [
     id: 40,
     firstName: 'Kary',
     lastName: 'Fomichyov',
-    email: 'kfomichyov13@washingtonpost.com',
+    email: 'kfomichyov@washington-post.com',
     img: 'http://dummyimage.com/200x100.png/dddddd/000000',
   },
   {
@@ -325,7 +325,7 @@ const persons = [
     id: 47,
     firstName: 'Cory',
     lastName: 'Gouldstraw',
-    email: 'cgouldstraw1a@comcast.net',
+    email: 'gouldstraw@comcast.net',
     img: 'http://dummyimage.com/200x100.png/dddddd/000000',
   },
   {
@@ -346,7 +346,7 @@ const persons = [
     id: 50,
     firstName: 'Dalt',
     lastName: 'Menloe',
-    email: 'dmenloe1d@surveymonkey.com',
+    email: 'dmenloe1d@monkey.com',
     img: 'http://dummyimage.com/200x100.png/5fa2dd/ffffff',
   },
 ]
