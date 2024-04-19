@@ -8,7 +8,7 @@ const Links = () => {
         <h1 className="title">References to my works</h1>
       </div>
 
-      <Card className="my-site d-flex flex-column justify-content-center align-items-center">
+      <Card className="my-site d-flex flex-column justify-content-center align-items-start">
         <h5>My yoga site</h5>
         <a href="http://tirthadeva.ru" target="_blank" rel="noreferrer">
           tirthadeva.ru
@@ -19,7 +19,7 @@ const Links = () => {
         </p>
       </Card>
 
-      <Card className="my-site d-flex flex-column justify-content-center align-items-center">
+      <Card className="my-site d-flex flex-column justify-content-center align-items-start">
         <h5>Moscow dharma center ShaktiMa</h5>
         <a href="http://shaktima.ru" target="_blank" rel="noreferrer">
           shaktima.ru
