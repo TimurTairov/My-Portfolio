@@ -1,4 +1,4 @@
 git add .
-git commit -m “commit 2.7 projects 2-5 @media”
+git commit -m “commit 2.8 costs-app layout contacts-page”
 git log
 git push origin master

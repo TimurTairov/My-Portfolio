@@ -7,7 +7,7 @@ const MainLayout = () => {
   return (
     <>
       <NavBar />
-      <Suspense fallback={<p>Загрузка ...</p>}>
+      <Suspense fallback={<p className="loading">Загрузка ...</p>}>
         <Outlet />
       </Suspense>
       <MyFooter />

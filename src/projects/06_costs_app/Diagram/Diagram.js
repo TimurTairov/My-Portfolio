@@ -4,7 +4,10 @@ import './Diagram.css'
 const Diagram = (props) => {
 
   const dataSetsValues = props.dataSets.map(dataSet => dataSet.value)
+
+  // console.log(dataSetsValues)
   const maxMonthCosts = Math.max(...dataSetsValues)
+
   return <div className="diagram">
     {props.dataSets.map(dataSet =>
       <DiagramBar

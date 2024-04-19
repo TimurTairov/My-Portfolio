@@ -36,7 +36,7 @@ const CostDiagram = (props) => {
     diagramDataSets[costMonth].value += cost.amount
   }
 
-  console.log(diagramDataSets)
+  //console.log(diagramDataSets)
 
   return <Diagram dataSets={diagramDataSets} />
 }
