@@ -43,6 +43,14 @@ const projects = [
     description: 'Cost accounting application',
     skills: 'React, useState, css, react-icons, custom UI, data filtering',
   },
+
+  {
+    id: '0007',
+    tittle: 'React multilevel dropdown menu',
+    description: 'Custom adaptive multilevel dropdown menu',
+    skills: 'React, useState, useEffect, useRef, css',
+  },
+
 ]
 
 export { projects }

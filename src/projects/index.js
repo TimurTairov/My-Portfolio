@@ -4,6 +4,7 @@ import JsonPlaceHolder from './03_jsonplaceholder/UserList'
 import UseEffectAsyncAwait from './04_useEffect_async_await/Posts'
 import TodoApp from './05_todo_app/TodoApp'
 import CostApp from './06_costs_app/CostsApp'
+import MultilevelDropdownMenu from './07_multilevel_dropdown_menu/MultilevelDropdownMenu'
 
 export const AllProjectsArray = []
 AllProjectsArray.push(Persons)
@@ -12,3 +13,4 @@ AllProjectsArray.push(JsonPlaceHolder)
 AllProjectsArray.push(UseEffectAsyncAwait)
 AllProjectsArray.push(TodoApp)
 AllProjectsArray.push(CostApp)
+AllProjectsArray.push(MultilevelDropdownMenu)

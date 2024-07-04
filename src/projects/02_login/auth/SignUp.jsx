@@ -1,6 +1,7 @@
 import { createUserWithEmailAndPassword } from 'firebase/auth'
 import React, { useState } from 'react'
-import { auth } from '../../firebase'
+import { auth } from '../firebase'
+import '../Login.css'
 
 const SignUp = () => {
   const [email, setEmail] = useState('')
@@ -49,7 +50,7 @@ const SignUp = () => {
           onChange={(e) => setCopyPassword(e.target.value)}
           type="password"
         />
-        <button>Create </button>
+        <button className="login-button">Create </button>
         {error ? <p style={{ color: 'red' }}>{error}</p> : ''}
       </form>
     </div>

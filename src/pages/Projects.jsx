@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
-import { projects } from '../components/helpers/projectsList'
+import { projects } from '../helpers/projectsList'
 import MyProject from '../components/MyProject'
 
 const Projects = () => {

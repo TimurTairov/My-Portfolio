@@ -1,6 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
-import { projects } from '../components/helpers/projectsList'
+import { projects } from '../helpers/projectsList'
 import { Container } from 'react-bootstrap'
 import { AllProjectsArray } from '../projects/index'
 

@@ -1,6 +1,7 @@
 import { signInWithEmailAndPassword } from 'firebase/auth'
 import React, { useState } from 'react'
-import { auth } from '../../firebase'
+import { auth } from '../firebase'
+import '../Login.css'
 
 const SignIn = () => {
   const [email, setEmail] = useState('')
@@ -38,7 +39,9 @@ const SignIn = () => {
           onChange={(e) => setPassword(e.target.value)}
           type="password"
         />
-        <button onClick={logIn}>LogIn</button>
+        <button className="login-button" onClick={logIn}>
+          LogIn
+        </button>
         {error ? <p style={{ color: 'red' }}>{error}</p> : ''}
       </form>
     </div>

@@ -1,4 +1,4 @@
-import persons from '../../data/persons'
+import persons from './arrayPersons'
 import Person from './Person'
 import './Persons.css'
 
